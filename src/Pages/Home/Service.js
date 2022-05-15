@@ -15,7 +15,7 @@ const Service = ({ service }) => {
                 </div>
             </div>
         </div>
-    );
+    )
 };
 
 export default Service;

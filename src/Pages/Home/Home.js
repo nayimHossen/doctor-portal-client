@@ -4,15 +4,17 @@ import Info from './Info';
 import MakeAppointment from './MakeAppointment';
 import Services from './Services';
 import Testimonial from './Testimonial';
+import Footer from '../Shared/Footer';
 
 const Home = () => {
     return (
-        <div className='px-12'>
+        <div>
             <Banner />
             <Info />
             <Services />
             <MakeAppointment />
             <Testimonial />
+            <Footer/>
         </div>
     );
 };
